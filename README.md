@@ -6,110 +6,45 @@ La automatizacion es una parte fundamental en la produccion de objetos que usamo
 
 Para resolver esta problematica, nuestro equipo creo un proyecto de prototipo capaz de identificar fotograficamente los productos, a traves del uso de inteligencia artificial. Ademas, estos productos seran mostrados en una pagina web, donde el usuario podra administrarlos.
 
-# Introducción
+<br>
 
 ## 📒 Indice
 
-- [⚙️ Explicacion de areas](#user-content-️-explicación-de-areas)
+El indice, sigue un orden del proyecto USAR MUCHAS IMAGENES
 
-- [🔧 Desarrollo](#user-content--desarrollo)
+- ⚙️ Funcionamiento
 
-- [📸 Galeria](#user-content--galeria)
+- 🔗 Componentes del proyecto
 
-- [🌟 Autores](#user-content--autores)
+- 🔌 Conexiones esquematicas
 
-- [🔒 Licencia](#user-content--licencia)
+- 📟 Codigos y software
 
-## ⚙️ Explicación de areas
+- ⚡ Ultimos cambios
 
-<br>
-
-![diagrama](https://github.com/FabrizioVal/Proyecto_G.I.A.I./blob/main/GithubImages/GIAI.drawio.png)
-
-El diagrama de bloques mostrado en la imagen funciona de la siguiente forma:
-
-### Scan físico
-
-  - En el sector de trabajo, hay una cinta transportadora. Los productos que se coloquen sobre esta se moverán de una punta a la otra. 
-
-  - La cinta está montada en un soporte. Sobre la cinta se sitúa una cámara y un sensor de distancia. El sensor detecta cuando el producto entra en la distancia de trabajo y con este dato la cinta se detiene.
-
-  - La cámara toma una foto del producto, para que después la cinta pueda resumir su camino.
-
-### Servidor de procesamiento
-
-  - La imagen que es tomada se envía a un servidor de procesamiento. Este se encarga de analizar la imagen usando inteligencia artificial. Se toman como datos la imagen en sí, el nombre del producto y la cantidad (Por cada producto que se escanea se suma 1 más).
-
-  - Estos datos son enviados y almacenados en la base de datos.
-
-### Servidor de administración
-
-  - Con un servidor de administración, los productos almacenados son mostrados en una página web para que el usuario pueda interactuar con estos. 
-
-  - Desde este medio, se pueden visualizar, añadir, editar, eliminar y buscar productos en la base de datos.
-
-  - Todos los cambios realizados se actualizarán en la DB.
-
-## 🔧 Desarrollo 
+- 🛠️ Armado final
 
 <br>
 
-La jerarquía de carpetas usadas es la siguiente:
+## ⚙️ Funcionamiento
+
+
+
+
+
+## 🔗 Componentes del proyecto
+
+## 🔌 Conexiones esquematicas
+
+## 📟 Codigos y software
+
+## ⚡ Ultimos cambios
+
+## 🛠️ Armado final
+
 
 <br>
 
-```
-main
-.
-|- GithubImages
-|- Hardware
-|   |-- Kicad
-|       |--- Versiones
-|- Modelos3D
-|   |-- Versiones
-|- Software
-|   |-- Arduino_IADataset
-|       |--- Versiones
-|   |-- PaginaWeb
-|       |--- Versiones
-|- READ.ME
-|- LICENCE
-
-```
-<br>
-
-Las carpetas principales son:
-
-### Hardware
-
-Aquí se encuentran los archivos hechos en kicad. Estas son las placas diseñadas y usadas durante el transcurso del desarrollo.
-
-### Modelos3D
-
-Aquí se encuentran los archivos hechos en tinkercad. Se incluyen archivos de base que se usaron para el montaje de motores, placas, cinta, entre otros elementos.
-
-### Software
-
-Aquí se encuentran dos carpetas diferentes, estas son:
-
-<br>
-
-  - **Arduino_IADataset** (Código arduino y código del servidor de procesamiento)
-
-<br>
-
-  - **PaginaWeb** (Código del servidor de administración)
-
-<br>
-
-
-> [!NOTE] 
-> Cada carpeta tiene una subcarpeta de versiones, para poder analizar el avance de cada sección.
-
-
-## 📸 Galeria
-
-## 🌟 Autores
 
 acomodar esto bien (me faltan 2)
 
@@ -123,19 +58,6 @@ acomodar esto bien (me faltan 2)
 
 [Vallone Fabrizio](https://github.com/FabrizioVal)
 
-## 🔒 Licencia
-
-[Licencia MIT](https://github.com/FabrizioVal/Proyecto_G.I.A.I./blob/main/LICENSE)
-
-<br>
-
-<br>
-
----
-
-<div align="center">
-  <a href="#user-content-introducción">🔼 Volver al inicio</a>
-</div>
 
 
 
