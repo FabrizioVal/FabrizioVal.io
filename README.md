@@ -79,7 +79,7 @@ Los componentes fisicos principales utilizados para el desarrollo electronico de
 **- Controladores de motores**
 <br>
 <br>
-<img src="https://github.com/FabrizioVal/FabrizioVal.io/blob/main/Images/Controladores%20de%20motores.png"/>
+<img src="./Images/Controladores%20de%20motores.png"/>
 
 ## 📟 Codigos y software
 
