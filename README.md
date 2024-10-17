@@ -57,11 +57,19 @@ Y con esto concluye el ciclo de funcionamiento de nuestro proyecto.
 
 Los componentes fisicos principales utilizados para el desarrollo electronico de nuestro proyecto son:
 
-- 
+- ESP32 Dev-Kit-V1
+- ESP32Cam
+- Sensor ultrasonido HC-SR04
+- Controlador de motores DRV8833 (2)
+- Motor QUEMODELO? (4)
 
 ## 🔌 Conexiones esquematicas
 
+IMAGENES ACA
+
 ## 📟 Codigos y software
+
+EXPLICAR DE FORMA SIMILAR EL FUNCIONAMIENTO GENERAL DE LOS CODIGOS
 
 ## ⚡ Ultimos cambios
 
