@@ -68,7 +68,7 @@ Los componentes fisicos principales utilizados para el desarrollo electronico de
 **- Placa de comando**
 <br>
 <br>
-<img src="./Images/ESP32CamPlaca.png"/>
+<img src="./Images/ESP32PlacaEsquematico.png"/>
 
 
 **- Placa ESP32Cam**
