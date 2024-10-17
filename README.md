@@ -61,7 +61,7 @@ Los componentes fisicos principales utilizados para el desarrollo electronico de
 - ESP32Cam
 - Sensor ultrasonido HC-SR04
 - Controlador de motores DRV8833 (2)
-- Motor QUEMODELO? (4)
+- Motores paso a paso (4)
 
 ## 🔌 Conexiones esquematicas
 
@@ -101,7 +101,7 @@ El ESPCam32 y el sensor de ultrasonido estan conectados el uno con el otro. Cuan
 
 Por lo tanto, se diseño un divisor resistivo para reducir el voltaje sin alterar la frecuencia:
 
-
+<img src="./Images/PlacaAdaptadora.png"/>
 
 ## 🛠️ Armado final
 
