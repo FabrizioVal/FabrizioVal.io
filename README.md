@@ -65,13 +65,37 @@ Los componentes fisicos principales utilizados para el desarrollo electronico de
 
 ## 🔌 Conexiones esquematicas
 
-IMAGENES ACA
+**- Placa de comando**
+<br>
+<br>
+<img src="https://github.com/FabrizioVal/FabrizioVal.io/blob/main/Images/ESP32PlacaEsquematico.png"/>
+
+
+**- Placa ESP32Cam**
+<br>
+<br>
+<img src="https://github.com/FabrizioVal/FabrizioVal.io/blob/main/Images/ESP32CamPlaca.png"/>
+
+**- Controladores de motores**
+<br>
+<br>
+<img src="https://github.com/FabrizioVal/FabrizioVal.io/blob/main/Images/Controladores%20de%20motores.png"/>
 
 ## 📟 Codigos y software
 
 EXPLICAR DE FORMA SIMILAR EL FUNCIONAMIENTO GENERAL DE LOS CODIGOS
 
-## ⚡ Ultimos cambios
+## ⚡ Cambios y mejoras
+
+Durante el transcurso de nuestro proyecto surgieron ciertos problemas a resolver. Podemos destacar 2 problemas, los cuales veremos a continuacion:
+
+En primer lugar, originalmente nuestros controladores de motores eran modelos L298n.
+El problema con esto es que, debido a la cantidad de conexiones entre componentes, nos obligaba a realizar un diseño doble faz para nuestra placa de comando. 
+Hubo varios modelos de placa doble faz realizados para nuestro proyecto, pero no se acercaron a ser el modelo correcto para lo que buscabamos fabricar.
+Por esto mismo, buscamos un modelo de driver de motores con diferentes conexiones mas practicas para nuestro diseño. 
+Al final, los drivers L298n fueron reemplazados por drivers DRV8833. 
+
+En segundo lugar, 
 
 ## 🛠️ Armado final
 
