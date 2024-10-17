@@ -55,6 +55,10 @@ Y con esto concluye el ciclo de funcionamiento de nuestro proyecto.
 
 ## 🔗 Componentes del proyecto
 
+Los componentes fisicos principales utilizados para el desarrollo electronico de nuestro proyecto son:
+
+- 
+
 ## 🔌 Conexiones esquematicas
 
 ## 📟 Codigos y software
