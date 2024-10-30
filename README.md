@@ -125,6 +125,6 @@ acomodar esto bien (me faltan 2)
 
 Links externos:
 
-[Informe del proyecto]([https://github.com/FabrizioVal](https://docs.google.com/document/d/1mTRYeyY_YsD2kjhfw3tEv7mwZntl2X6F49L_w81WZxs/edit?tab=t.0))
+[Informe del proyecto](https://github.com/FabrizioVal](https://docs.google.com/document/d/1mTRYeyY_YsD2kjhfw3tEv7mwZntl2X6F49L_w81WZxs/edit?tab=t.0)
 
-[Repositorio del proyecto]([[https://github.com/FabrizioVal](https://docs.google.com/document/d/1mTRYeyY_YsD2kjhfw3tEv7mwZntl2X6F49L_w81WZxs/edit?tab=t.0)](https://github.com/FabrizioVal/Proyecto_G.I.A.I.))
+[Repositorio del proyecto](https://github.com/FabrizioVal](https://docs.google.com/document/d/1mTRYeyY_YsD2kjhfw3tEv7mwZntl2X6F49L_w81WZxs/edit?tab=t.0)](https://github.com/FabrizioVal/Proyecto_G.I.A.I.)
