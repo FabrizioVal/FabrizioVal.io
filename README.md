@@ -10,8 +10,6 @@ Para resolver esta problematica, nuestro equipo creo un proyecto de prototipo ca
 
 ## 📒 Indice
 
-El indice, sigue un orden del proyecto USAR MUCHAS IMAGENES
-
 - ⚙️ Funcionamiento
 
 - 🔗 Componentes del proyecto
@@ -28,11 +26,9 @@ El indice, sigue un orden del proyecto USAR MUCHAS IMAGENES
 
 El recorrido de nuestro proyecto inicia en la **seccion fisica**. 
 
-IMAGEN DE LA CINTA CON SU ESTRUCTURA
-
 En esta, tenemos una base solida impresa en PLA (ácido poliláctico) la cual es la encargada de sostener en sus correspondientes lugares todos los elementos utilizados.
 
-La forma en que los productos se mueven es a traves de una cinta transportadora con rodillos accionada por 4 motores (ESPECIFICAR MODELO MOTORES). Para controlar esa logica (y toda la logica principal del sector fisico) es usado un microcontrolador ESP32 Dev-Kit-V1.
+La forma en que los productos se mueven es a traves de una cinta transportadora con rodillos accionada por 4 motores. Para controlar esa logica (y toda la logica principal del sector fisico) es usado un microcontrolador ESP32 Dev-Kit-V1.
 
 Sobre esta cinta, se encuentra el pilar central de la estructura. En su parte superior estan montados un sensor de distancia ultrasonido(HC-SR04) y una camara (ESP32Cam). Como podran suponer, la funcion de estos dos componentes es la siguiente:
 
@@ -43,6 +39,7 @@ Nuestra foto ya tomada es ahora enviada via Wi-Fi a un servidor de procesamiento
 En el servidor de procesamiento, esta instalado una Inteligencia Artificial entrenada para reconocer los productos que pasaran por la cinta. Al finalizar esta operacion, se notifica a la parte fisica del exito, y se obtienen los siguientes datos:
 
 - Nombre del producto
+- Imagen 
 - Cantidad (1)
 
 Esta informacion es actualizada en la base de datos (MongoDB) del proyecto.
@@ -102,16 +99,6 @@ El problema con esto es que, debido a la cantidad de conexiones entre componente
 Hubo varios modelos de placa doble faz realizados para nuestro proyecto, pero no se acercaron a ser el modelo correcto para lo que buscabamos fabricar.
 Por esto mismo, buscamos un modelo de driver de motores con diferentes conexiones mas practicas para nuestro diseño. 
 Al final, los drivers L298n fueron reemplazados por drivers DRV8833. 
-
-
-
-## 🛠️ Armado final
-
-
-<br>
-
-
-acomodar esto bien (me faltan 2)
 
 [Altamirano Valentino]()
 
