@@ -1,6 +1,6 @@
 # Gestor de Inventario con Inteligencia Artificial (G.I.A.I.)
 
-Imagen final del proyecto)
+<img src="./Images/ImagenCinta.png"/>
 
 La automatizacion es una parte fundamental en la produccion de objetos que usamos dia a dia. Una seccion muy importante de esta es la categorizacion y administracion de los productos automatizados, lo cual puede ser tedioso, ya que uno tiene que ***identificar, contar y anotar*** los productos entrantes.
 
@@ -16,13 +16,11 @@ El indice, sigue un orden del proyecto USAR MUCHAS IMAGENES
 
 - 🔗 Componentes del proyecto
 
-- 🔌 Conexiones esquematicas
+- 🔌 Conexiones esquematicas y PCB's
 
 - 📟 Codigos y software
 
 - ⚡ Ultimos cambios
-
-- 🛠️ Armado final
 
 <br>
 
@@ -95,13 +93,7 @@ Hubo varios modelos de placa doble faz realizados para nuestro proyecto, pero no
 Por esto mismo, buscamos un modelo de driver de motores con diferentes conexiones mas practicas para nuestro diseño. 
 Al final, los drivers L298n fueron reemplazados por drivers DRV8833. 
 
-En segundo lugar, tuvimos que implementar un divisor resistivo en una de nuestras conexiones. ¿Y para que nos sirvio un divisor resistivo? Para evitar que nuestro ESPCam32 se queme por exceso de corriente.
 
-El ESPCam32 y el sensor de ultrasonido estan conectados el uno con el otro. Cuando el ESPCam32 se comunica con el sensor, envia un pulso de 3,3v. Para su respuesta, el sensor envia un pulso de 5v. Esto es un gran problema, ya que el integrado en si del ESPCam soporta un maximo de 3,3v, poniendolo en riesgo.
-
-Por lo tanto, se diseño un divisor resistivo para reducir el voltaje sin alterar la frecuencia:
-
-<img src="./Images/PlacaAdaptadora.png"/>
 
 ## 🛠️ Armado final
 
