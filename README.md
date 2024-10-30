@@ -61,7 +61,7 @@ Los componentes fisicos principales utilizados para el desarrollo electronico de
 - Controlador de motores DRV8833 (2)
 - Motores paso a paso (4)
 
-## 🔌 Conexiones esquematicas
+## 🔌 Conexiones esquematicas y PCB's
 
 **- Placa de comando**
 <br>
@@ -78,6 +78,16 @@ Los componentes fisicos principales utilizados para el desarrollo electronico de
 <br>
 <br>
 <img src="./Images/Controladores%20de%20motores.png"/>
+
+**- Placa de comando**
+<br>
+<br>
+<img src="./Images/PCB2.0.Comando.png"/>
+
+**- Placa ESP32Cam**
+<br>
+<br>
+<img src="./Images/PCBESPCam.png"/>
 
 ## 📟 Codigos y software
 
@@ -109,17 +119,12 @@ acomodar esto bien (me faltan 2)
 
 [Campusano Federico](https://github.com/FedeCampu1)
 
-[Sebastian Galeotti]()
+[Sebastian Galeotti](https://github.com/Kickdart)
 
 [Vallone Fabrizio](https://github.com/FabrizioVal)
 
+Links externos:
 
+[Informe del proyecto]([https://github.com/FabrizioVal](https://docs.google.com/document/d/1mTRYeyY_YsD2kjhfw3tEv7mwZntl2X6F49L_w81WZxs/edit?tab=t.0))
 
-
-
-
-
-
-
-
-Ultima seccion, adjuntar PDF del proyecto y repo
+[Repositorio del proyecto]([[https://github.com/FabrizioVal](https://docs.google.com/document/d/1mTRYeyY_YsD2kjhfw3tEv7mwZntl2X6F49L_w81WZxs/edit?tab=t.0)](https://github.com/FabrizioVal/Proyecto_G.I.A.I.))
