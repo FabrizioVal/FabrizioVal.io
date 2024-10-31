@@ -92,7 +92,9 @@ A continuacion, se explica como funciona nuestra seccion de software y cuales te
 
 - **Arduino**
 
+Ambos microcontroladores utilizan códigos de arduino para su funcionamiento lógico, y su flujo de comunicación/acción es el siguiente:
 
+<img src="./Images/ArduinoFlujo.jpg"/>
 
 - **Servidor AI**
 
