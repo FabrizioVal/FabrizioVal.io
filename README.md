@@ -141,7 +141,7 @@ Hubo varios modelos de placa doble faz realizados para nuestro proyecto, pero no
 Por esto mismo, buscamos un modelo de driver de motores con diferentes conexiones mas practicas para nuestro diseño. 
 Al final, los drivers L298n fueron reemplazados por drivers DRV8833. 
 
-[Altamirano Valentino]()
+[Altamirano Valentino](https://github.com/val675)
 
 [Avila Tomas](https://github.com/VMASPAD)
 
