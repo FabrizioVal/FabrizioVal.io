@@ -88,13 +88,52 @@ Los componentes fisicos principales utilizados para el desarrollo electronico de
 
 ## 📟 Codigos y software
 
-EXPLICAR DE FORMA SIMILAR EL FUNCIONAMIENTO GENERAL DE LOS CODIGOS
+A continuacion, se explica como funciona nuestra seccion de software y cuales tecnologias usamos:
+
+- **Arduino**
+
+
+
+- **Servidor AI**
+
+Las tecnologías utilizadas para construir este servidor son YOLOv 8 (Identificación de imágenes), openCV (Procesamiento) y base64 (Convertir imágenes a URL).
+
+Se utilizó python como lenguaje de programación.
+
+A continuación se explica el funcionamiento del servidor:
+
+<img src="./Images/ServerIA.drawio.png"/>
+
+En resumen, este servidor es el encargado de recibir las imágenes desde nuestro microcontrolador, procesarlas, analizarlas, restructurarlas y enviarlas en su correcto formato a la base de datos. 
+
+- **Servidor pagina web**
+
+
+Para la programación de la página web se utilizó el stack M.E.R.N. (Typescript como lenguaje de programación). Esta cumple con las siguientes funciones:
+
+- Visualización de productos
+- Edición de productos
+- Eliminación de productos
+- Búsqueda de productos
+- Filtrar por etiquetas
+
+A continuación se explican las siguientes funciones principales nombradas en el diagrama de flujo:
+
+<img src="./Images/PaginaWeb2.drawio.png"/>
+
+‘Product’ es el nombre del schema de MongoDB con el cual los productos se registran. Los productos contienen “nombre”, “precio”, “cantidad” y “ImageURL” (Imagen del producto).
+
+‘getAllProducts’ es la función GET la cual se encarga de traer y enviar al frontend todos los productos de la base de datos. 
+
+‘EditProduct’ es para editar productos. ‘EraseProduct’ es para borrar productos. ‘AddProduct ‘ es para añadir productos localmente desde el ordenador.’ Estas funciones se encuentran en el frontend y backend. El frontend envía la información al backend, en donde se procesa en la función correspondiente. Luego se envían a la base de datos, y se le informa al usuario el éxito o error de la operación.
+
+
 
 ## ⚡ Cambios y mejoras
 
-Durante el transcurso de nuestro proyecto surgieron ciertos problemas a resolver. Podemos destacar 2 problemas, los cuales veremos a continuacion:
+Durante el transcurso de nuestro proyecto, nuestro problema principal surgio con el modelo de driver de motores. 
 
-En primer lugar, originalmente nuestros controladores de motores eran modelos L298n.
+Originalmente nuestros controladores de motores eran modelos L298n.
 El problema con esto es que, debido a la cantidad de conexiones entre componentes, nos obligaba a realizar un diseño doble faz para nuestra placa de comando. 
 Hubo varios modelos de placa doble faz realizados para nuestro proyecto, pero no se acercaron a ser el modelo correcto para lo que buscabamos fabricar.
 Por esto mismo, buscamos un modelo de driver de motores con diferentes conexiones mas practicas para nuestro diseño. 
