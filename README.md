@@ -1,6 +1,6 @@
 # Gestor de Inventario con Inteligencia Artificial (G.I.A.I.)
 
-<img src="./Images/ImagenCinta.png"/>
+<img src="./Images/CintaGIAI.png"/>
 
 La automatizacion es una parte fundamental en la produccion de objetos que usamos dia a dia. Una seccion muy importante de esta es la categorizacion y administracion de los productos automatizados, lo cual puede ser tedioso, ya que uno tiene que ***identificar, contar y anotar*** los productos entrantes.
 
